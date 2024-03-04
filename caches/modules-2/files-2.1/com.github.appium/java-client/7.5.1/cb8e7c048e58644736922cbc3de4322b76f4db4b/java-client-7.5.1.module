@@ -1,0 +1,185 @@
+{
+  "formatVersion" : "1.1",
+  "createdBy" : {
+    "gradle" : {
+      "version" : "6.7.1",
+      "buildId" : "r66dlwj67zhkrcvxid4nqnt2ga"
+    }
+  },
+  "component" : {
+    "group" : "com.github.appium",
+    "module" : "java-client",
+    "version" : "7.5.1",
+    "attributes" : {
+      "org.gradle.status" : "release"
+    }
+  },
+  "variants" : [ {
+    "name" : "apiElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-api"
+    },
+    "dependencies" : [ {
+      "group" : "org.seleniumhq.selenium",
+      "module" : "selenium-java",
+      "version" : {
+        "requires" : "3.141.59"
+      }
+    } ],
+    "files" : [ {
+      "name" : "java-client-7.5.1.jar",
+      "url" : "java-client-7.5.1.jar",
+      "size" : 391571,
+      "sha512" : "c2c40b2ce9f0f22fe2f2591485a0356f3054a4ee4e0da981bef8f772eee3101e93d457fbc075189b4c16b93b3017ae21f62c370918961d926db2b5bfd92bfaee",
+      "sha256" : "e2e8ed700218a629b4b062c6c46879ec699d880b95f3927721d658215893e80f",
+      "sha1" : "42152111ba035dd57a3f32a982292dfc4aaf7573",
+      "md5" : "f6480ea6c79e2627214378b6f6899a09"
+    } ]
+  }, {
+    "name" : "runtimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.jvm.version" : "8",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "dependencies" : [ {
+      "group" : "org.seleniumhq.selenium",
+      "module" : "selenium-support",
+      "version" : {
+        "requires" : "3.141.59"
+      }
+    }, {
+      "group" : "org.seleniumhq.selenium",
+      "module" : "selenium-api",
+      "version" : {
+        "requires" : "3.141.59"
+      }
+    }, {
+      "group" : "com.google.code.gson",
+      "module" : "gson",
+      "version" : {
+        "requires" : "2.8.6"
+      }
+    }, {
+      "group" : "org.apache.httpcomponents",
+      "module" : "httpclient",
+      "version" : {
+        "requires" : "4.5.13"
+      }
+    }, {
+      "group" : "cglib",
+      "module" : "cglib",
+      "version" : {
+        "requires" : "3.3.0"
+      }
+    }, {
+      "group" : "commons-validator",
+      "module" : "commons-validator",
+      "version" : {
+        "requires" : "1.7"
+      }
+    }, {
+      "group" : "org.apache.commons",
+      "module" : "commons-lang3",
+      "version" : {
+        "requires" : "3.12.0"
+      }
+    }, {
+      "group" : "commons-io",
+      "module" : "commons-io",
+      "version" : {
+        "requires" : "2.8.0"
+      }
+    }, {
+      "group" : "org.springframework",
+      "module" : "spring-context",
+      "version" : {
+        "requires" : "5.3.4"
+      }
+    }, {
+      "group" : "org.aspectj",
+      "module" : "aspectjweaver",
+      "version" : {
+        "requires" : "1.9.6"
+      }
+    }, {
+      "group" : "org.slf4j",
+      "module" : "slf4j-api",
+      "version" : {
+        "requires" : "1.7.30"
+      }
+    }, {
+      "group" : "org.seleniumhq.selenium",
+      "module" : "selenium-java",
+      "version" : {
+        "requires" : "3.141.59"
+      }
+    } ],
+    "files" : [ {
+      "name" : "java-client-7.5.1.jar",
+      "url" : "java-client-7.5.1.jar",
+      "size" : 391571,
+      "sha512" : "c2c40b2ce9f0f22fe2f2591485a0356f3054a4ee4e0da981bef8f772eee3101e93d457fbc075189b4c16b93b3017ae21f62c370918961d926db2b5bfd92bfaee",
+      "sha256" : "e2e8ed700218a629b4b062c6c46879ec699d880b95f3927721d658215893e80f",
+      "sha1" : "42152111ba035dd57a3f32a982292dfc4aaf7573",
+      "md5" : "f6480ea6c79e2627214378b6f6899a09"
+    } ]
+  }, {
+    "name" : "shadowRuntimeElements",
+    "attributes" : {
+      "org.gradle.category" : "library",
+      "org.gradle.dependency.bundling" : "shadowed",
+      "org.gradle.libraryelements" : "jar",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "java-client-7.5.1.jar",
+      "url" : "java-client-7.5.1.jar",
+      "size" : 18514130,
+      "sha512" : "f88354a9db131c686606972b008d3d5d18631b114e662a15025ee030029672faf4353927cdd5d17406934b9d48a54b9cf599aefb433ce170746a8e248b0e02e5",
+      "sha256" : "5bb92730c83ee6a7f4872c108e0e7b3edbb7a830271274a773f89d66c4c3ac02",
+      "sha1" : "be833fee24aea8a1834e4956ed4e8977819c8346",
+      "md5" : "640083e8e3ecded88d53e62b64e9ed24"
+    } ]
+  }, {
+    "name" : "javadocElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "javadoc",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "java-client-7.5.1.jar",
+      "url" : "java-client-7.5.1.jar",
+      "size" : 1090798,
+      "sha512" : "4ef7c739eeb89c2c1502e9192af5d49333b3e1bd60842464bb25bfe42efc7c4413bcbcbffbb156892f7fba267c0955383f14e2bbb1111b7c5d563f7b6ba4c959",
+      "sha256" : "daf78121e376fd2c150ddd72377aac5c76ad230604eb2971aa58c3aeec36cdb5",
+      "sha1" : "308bd1c8e79e8633da079975bd0f071ac3871abd",
+      "md5" : "412c61c7c1a5872b6f038ef0571e8c4d"
+    } ]
+  }, {
+    "name" : "sourcesElements",
+    "attributes" : {
+      "org.gradle.category" : "documentation",
+      "org.gradle.dependency.bundling" : "external",
+      "org.gradle.docstype" : "sources",
+      "org.gradle.usage" : "java-runtime"
+    },
+    "files" : [ {
+      "name" : "java-client-7.5.1.jar",
+      "url" : "java-client-7.5.1.jar",
+      "size" : 342047,
+      "sha512" : "32b564a10d933bc668efb99ff31adbb70e38d01ddb9a1db149e941b067be9c103afd11916515442da41010f27a0382feb5b0dced23715a3eee3b36252286ec49",
+      "sha256" : "bf20239ee19a83b4672ee90a466659973fab48ebc69e2419d54eddd59116acac",
+      "sha1" : "c82f53621ad7da841d4679bf049f3e326d1a46d7",
+      "md5" : "2816721483d8f660a6d36128dda37acb"
+    } ]
+  } ]
+}
